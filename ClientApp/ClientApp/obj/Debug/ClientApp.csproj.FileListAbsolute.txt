@@ -1,0 +1,9 @@
+H:\CorC++\LiunxProject\communication\ClientApp\ClientApp\bin\Debug\ClientApp.exe.config
+H:\CorC++\LiunxProject\communication\ClientApp\ClientApp\bin\Debug\ClientApp.exe
+H:\CorC++\LiunxProject\communication\ClientApp\ClientApp\bin\Debug\ClientApp.pdb
+H:\CorC++\LiunxProject\communication\ClientApp\ClientApp\obj\Debug\ClientApp.csprojResolveAssemblyReference.cache
+H:\CorC++\LiunxProject\communication\ClientApp\ClientApp\obj\Debug\ClientApp.login.resources
+H:\CorC++\LiunxProject\communication\ClientApp\ClientApp\obj\Debug\ClientApp.Properties.Resources.resources
+H:\CorC++\LiunxProject\communication\ClientApp\ClientApp\obj\Debug\ClientApp.csproj.GenerateResource.Cache
+H:\CorC++\LiunxProject\communication\ClientApp\ClientApp\obj\Debug\ClientApp.exe
+H:\CorC++\LiunxProject\communication\ClientApp\ClientApp\obj\Debug\ClientApp.pdb
