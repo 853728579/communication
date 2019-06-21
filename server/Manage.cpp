@@ -17,14 +17,24 @@ void CManage::Start()
 		
 		return ;
 	}
+
 	while (1)
 	{
+		memset(msg.id, 0, USER_ID_SIZE);
+		memset(msg.ToId, 0, USER_ID_SIZE);
+		memset(msg.mtext, 0, MSG_MAX_SIZE);
 		//len = m_sock.Receive(&msg, sizeof(msg_t));
 		len = m_sock.ReceiveFrom(&msg, sizeof(msg_t), (LPTSTR)ip, port);
-		cout<<"ip:"<<ip<<endl;
+
+		strncpy((char *)msg.id, (const char *)ip, USER_ID_SIZE);
+		cout<<"ip:"<<msg.id<<endl;
+
 		switch(msg.type)
 		{
-			case MT_CLIENT_LOGIN:m_admin.Login(&msg);break;
+			case MT_LOGIN:		m_admin.Login(&msg);	break;
+			case MT_REGISTER:	m_admin.Register(&msg);	break;
+			case MT_GET_FRIEND:/*»ñÈ¡ºÃÓÑ*/  break;
+			case MT_CLIENT_CHAT: break;
 			default:break;
 		}
 	}

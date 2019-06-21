@@ -7,3 +7,12 @@ H:\CorC++\LiunxProject\communication\ClientApp\ClientApp\obj\Debug\ClientApp.Pro
 H:\CorC++\LiunxProject\communication\ClientApp\ClientApp\obj\Debug\ClientApp.csproj.GenerateResource.Cache
 H:\CorC++\LiunxProject\communication\ClientApp\ClientApp\obj\Debug\ClientApp.exe
 H:\CorC++\LiunxProject\communication\ClientApp\ClientApp\obj\Debug\ClientApp.pdb
+F:\zhangy\github\communication\ClientApp\ClientApp\bin\Debug\ClientApp.exe.config
+F:\zhangy\github\communication\ClientApp\ClientApp\obj\Debug\ClientApp.exe
+F:\zhangy\github\communication\ClientApp\ClientApp\obj\Debug\ClientApp.pdb
+F:\zhangy\github\communication\ClientApp\ClientApp\bin\Debug\ClientApp.exe
+F:\zhangy\github\communication\ClientApp\ClientApp\bin\Debug\ClientApp.pdb
+F:\zhangy\github\communication\ClientApp\ClientApp\obj\Debug\ClientApp.csprojResolveAssemblyReference.cache
+F:\zhangy\github\communication\ClientApp\ClientApp\obj\Debug\ClientApp.login.resources
+F:\zhangy\github\communication\ClientApp\ClientApp\obj\Debug\ClientApp.Properties.Resources.resources
+F:\zhangy\github\communication\ClientApp\ClientApp\obj\Debug\ClientApp.csproj.GenerateResource.Cache

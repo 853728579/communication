@@ -15,6 +15,7 @@ class CAdmin
 public:
 	//µ«»Î
 	void Login(msg_t * pMsg);
+	void Register(msg_t * pMsg);
 
 	CAdmin(CSockZy * pSock);
 	~CAdmin();

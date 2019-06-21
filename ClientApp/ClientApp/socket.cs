@@ -11,14 +11,15 @@ namespace ClientApp
     class socket
     {
         private int port = 10002;
-        private string host = "192.168.1.202";
+        private string host = "192.168.0.112";
+        private Socket clientSocket;
 
         public socket()
         {
             IPAddress ip = IPAddress.Parse(host);
             IPEndPoint ipe = new IPEndPoint(ip, port);
 
-            Socket clientSocket = new Socket(AddressFamily.InterNetwork, SocketType.Dgram, ProtocolType.Udp);
+            clientSocket = new Socket(AddressFamily.InterNetwork, SocketType.Dgram, ProtocolType.Udp);
             clientSocket.Connect(ipe);
 
             string sendStr = "send to server : hello,ni hao";
@@ -26,6 +27,12 @@ namespace ClientApp
             clientSocket.Send(sendBytes);
 
             clientSocket.Close();
+        }
+
+        public int Send(byte[] data)
+        {
+
+            return 1;
         }
     }
 }

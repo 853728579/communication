@@ -98,6 +98,7 @@
             this.button3.TabIndex = 1;
             this.button3.Text = "退出";
             this.button3.UseVisualStyleBackColor = true;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
             // label3
             // 
@@ -128,6 +129,8 @@
             this.Name = "login";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "登入";
+            this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.login_FormClosed);
+            this.Load += new System.EventHandler(this.login_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

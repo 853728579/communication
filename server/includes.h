@@ -11,7 +11,7 @@
 
 #define MSG_NAME_SIZE		(20)
 
-#define USER_ID_SIZE		(6)
+#define USER_ID_SIZE		(20)
 
 #define PASSWORD_SIZE		(20)
 
@@ -37,6 +37,7 @@
 #include <unistd.h>
 #include <errno.h>
 #include <string.h>
+#include <pthread.h>
 
 
 #ifndef FALSE
@@ -50,8 +51,11 @@
 #endif  /*#ifdef _WIN32*/
 
 typedef enum{
+
+	MT_LOGIN  = 10,		/*登入*/
+	MT_REGISTER,		/*注册*/
+	MT_GET_FRIEND,		/*获取好友*/
 	/*client*/
-	MT_CLIENT_LOGIN  = 100,
 	MT_CLIENT_CHAT,
 	MT_CLIENT_QUIT,
 
